@@ -14,7 +14,7 @@ export function Footer() {
               <div className="w-10 h-10 bg-primary-foreground rounded-lg flex items-center justify-center">
                 <span className="text-primary font-bold text-lg">B</span>
               </div>
-              <span className="font-bold text-lg">Bright</span>
+              <span className="font-bold text-lg">TEYZIX CORE</span>
             </div>
             <p className="text-primary-foreground/80 text-sm">
               Launch your career with our premium internship opportunities.
@@ -81,8 +81,8 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center space-x-2">
                 <Mail size={16} />
-                <a href="mailto:hello@bright.com" className="hover:text-primary-foreground/80 transition-colors">
-                  hello@bright.com
+                <a href="mailto:hello@TEYZIXCORE.com" className="hover:text-primary-foreground/80 transition-colors">
+                  hello@TEYZIXCORE.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
@@ -106,7 +106,7 @@ export function Footer() {
         {/* Divider */}
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-primary-foreground/70">
-            <p>&copy; {currentYear} Bright Internships. All rights reserved.</p>
+            <p>&copy; {currentYear} TEYZIX CORE Internships. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link href="#privacy" className="hover:text-primary-foreground transition-colors">
                 Privacy Policy

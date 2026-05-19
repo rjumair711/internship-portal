@@ -22,7 +22,7 @@ export function Navbar() {
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">B</span>
             </div>
-            <span className="font-bold text-lg text-foreground hidden sm:inline">Bright</span>
+            <span className="font-bold text-lg text-foreground hidden sm:inline">TEYZIX CORE</span>
           </Link>
 
           {/* Desktop Navigation */}

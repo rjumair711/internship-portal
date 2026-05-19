@@ -113,10 +113,10 @@ export default function ContactPage() {
                 </div>
                 <p className="text-muted-foreground mb-3">We&apos;ll get back to you as soon as possible.</p>
                 <a
-                  href="mailto:hello@bright.com"
+                  href="mailto:hello@TEYZIX CORE.com"
                   className="text-primary font-semibold hover:text-primary/80 transition-all duration-300"
                 >
-                  hello@bright.com
+                  hello@TEYZIX CORE.com
                 </a>
               </div>
 
@@ -190,9 +190,8 @@ export default function ContactPage() {
                         name="name"
                         value={formData.name}
                         onChange={handleInputChange}
-                        className={`w-full px-4 py-2 border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${
-                          errors.name ? 'border-red-500' : 'border-border'
-                        }`}
+                        className={`w-full px-4 py-2 border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${errors.name ? 'border-red-500' : 'border-border'
+                          }`}
                         placeholder="John Doe"
                       />
                       {errors.name && (
@@ -214,9 +213,8 @@ export default function ContactPage() {
                         name="email"
                         value={formData.email}
                         onChange={handleInputChange}
-                        className={`w-full px-4 py-2 border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${
-                          errors.email ? 'border-red-500' : 'border-border'
-                        }`}
+                        className={`w-full px-4 py-2 border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${errors.email ? 'border-red-500' : 'border-border'
+                          }`}
                         placeholder="john@example.com"
                       />
                       {errors.email && (
@@ -238,9 +236,8 @@ export default function ContactPage() {
                         name="subject"
                         value={formData.subject}
                         onChange={handleInputChange}
-                        className={`w-full px-4 py-2 border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${
-                          errors.subject ? 'border-red-500' : 'border-border'
-                        }`}
+                        className={`w-full px-4 py-2 border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-colors ${errors.subject ? 'border-red-500' : 'border-border'
+                          }`}
                         placeholder="How can we help?"
                       />
                       {errors.subject && (
@@ -262,9 +259,8 @@ export default function ContactPage() {
                         value={formData.message}
                         onChange={handleInputChange}
                         rows={5}
-                        className={`w-full px-4 py-2 border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-colors resize-none ${
-                          errors.message ? 'border-red-500' : 'border-border'
-                        }`}
+                        className={`w-full px-4 py-2 border rounded-lg bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary transition-colors resize-none ${errors.message ? 'border-red-500' : 'border-border'
+                          }`}
                         placeholder="Your message here..."
                       />
                       {errors.message && (

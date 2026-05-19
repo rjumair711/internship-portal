@@ -17,7 +17,7 @@ export default function Home() {
             <div className="space-y-8">
               <div className="space-y-4 animate-fadeInUp">
                 <h1 className="text-5xl sm:text-6xl font-bold text-foreground leading-tight text-balance">
-                  Launch Your Career with Bright
+                  Launch Your Career with TEYZIX CORE
                 </h1>
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   Discover premium internship opportunities designed to accelerate your professional growth and build your future.
@@ -72,7 +72,7 @@ export default function Home() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-card">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-foreground mb-4">Why Choose Bright?</h2>
+            <h2 className="text-4xl font-bold text-foreground mb-4">Why Choose TEYZIX CORE?</h2>
             <p className="text-xl text-muted-foreground">Everything you need to succeed in your internship journey</p>
           </div>
 
@@ -121,7 +121,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 className="text-4xl font-bold text-balance">Ready to Start Your Journey?</h2>
           <p className="text-xl opacity-90">
-            Join thousands of students who have launched their careers with Bright internship opportunities.
+            Join thousands of students who have launched their careers with TEYZIX CORE internship opportunities.
           </p>
           <Link href="/apply">
             <Button className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 px-8 py-3 text-lg font-semibold hover-lift">
