@@ -127,7 +127,7 @@ export default function ApplyPage() {
 
     try {
       const response = await axios.post(
-        'http://localhost:5000/api/apply',
+        '/api/apply',
         {
           name: formData.fullName,
           email: formData.email,

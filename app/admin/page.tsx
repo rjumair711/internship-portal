@@ -24,7 +24,7 @@ export default function AdminPage() {
   const fetchApplications = async () => {
     try {
       const response = await axios.get(
-        'http://localhost:5000/api/applications'
+        '/api/applications'
       )
 
       setApplications(response.data.data)
