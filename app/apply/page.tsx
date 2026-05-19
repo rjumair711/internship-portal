@@ -4,7 +4,7 @@ import { Navbar } from '@/components/shared/navbar'
 import { Footer } from '@/components/shared/footer'
 import { Button } from '@/components/ui/button'
 import { useState, Suspense } from 'react'
-import { CheckCircle } from 'lucide-react'
+import {  CheckCircle } from 'lucide-react'
 import { useSearchParams } from 'next/navigation'
 import axios from 'axios'
 
