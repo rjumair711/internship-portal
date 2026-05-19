@@ -3,8 +3,8 @@
 import { Navbar } from '@/components/shared/navbar'
 import { Footer } from '@/components/shared/footer'
 import { Button } from '@/components/ui/button'
-import { useState } from 'react'
-import { AlertCircle, CheckCircle } from 'lucide-react'
+import { useState, Suspense } from 'react'
+import { CheckCircle } from 'lucide-react'
 import { useSearchParams } from 'next/navigation'
 import axios from 'axios'
 
@@ -26,7 +26,7 @@ interface FormErrors {
   [key: string]: string
 }
 
-export default function ApplyPage() {
+function ApplyPageContent() {
   const searchParams = useSearchParams()
   const selectedPosition = searchParams.get('internship') || ''
 
@@ -347,5 +347,13 @@ export default function ApplyPage() {
 
       <Footer />
     </div>
+  )
+}
+
+export default function ApplyPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ApplyPageContent />
+    </Suspense>
   )
 }
